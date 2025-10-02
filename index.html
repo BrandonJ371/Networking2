@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: black;
+    }
+
+    .content {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 2rem;
+    }
+
+    .text-placeholder {
+      max-width: 300px;
+      padding: 1rem;
+      border: 1px solid black;
+      border-radius: 6px;
+    }
+
+    .text-placeholder h2 {
+      text-align: center;
+    }
+
+    /* Add spacing between facts */
+    .text-placeholder ul {
+      list-style-type: none; /* removes bullets */
+      padding: 0;
+    }
+
+    .text-placeholder li {
+      margin-bottom: 20px; /* space between each fact */
+    }
+
+    .image-container {
+      display: flex;
+      flex-direction: column;
+      gap: 30px; /* space between images */
+    }
+
+    .image-container img {
+      width: 250px;
+      height: 180px;
+      border: 2px solid black;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 2px solid black;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <!-- Facts on the left -->
+    <div class="text-placeholder">
+      <h2>3 Interesting Things About Me</h2>
+      <ul>
+        <li><strong>Fact 1:</strong> I am good at Rainbow Six Siege.</li>
+        <li><strong>Fact 2:</strong> I play Clash Royale.</li>
+        <li><strong>Fact 3:</strong> I like cats.</li>
+      </ul>
+    </div>
+
+    <!-- Images stacked on the right -->
+    <div class="image-container">
+      <img src="rainbow.jpg" alt="Rainbow Six Siege">
+      <img src="clash.jpg" alt="Clash Royale">
+      <img src="cat.jpg" alt="Cats">
+    </div>
+  </div>
+
+  <footer>
+    
+  </footer>
+</body>
+</html>
